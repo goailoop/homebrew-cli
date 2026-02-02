@@ -4,7 +4,7 @@
 class Ailoop < Formula
   desc "Human-in-the-Loop CLI Tool for AI Agent Communication"
   homepage "https://github.com/goailoop/ailoop"
-  version "0.1.10"
+  version "0.1.11"
   license "Apache-2.0"
 
   on_linux do
@@ -19,8 +19,8 @@ class Ailoop < Formula
       end
 
       if glibc_version >= 2.38
-        url "https://github.com/goailoop/ailoop/releases/download/v0.1.10/ailoop-x86_64-unknown-linux-gnu.tar.gz"
-        sha256 "85c9b0fc7251b9940680be1257baffe2e41cd32f6e5021817ce0188b9358cf3f"
+        url "https://github.com/goailoop/ailoop/releases/download/v0.1.11/ailoop-x86_64-unknown-linux-gnu.tar.gz"
+        sha256 "9f49c829b9c79ac2940a04c13c9d09765af63db600b3a9bf15322041bc074200"
       else
       end
     end
