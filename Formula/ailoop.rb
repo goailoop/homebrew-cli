@@ -20,10 +20,10 @@ class Ailoop < Formula
 
       if glibc_version >= 2.38
         url "https://github.com/goailoop/ailoop/releases/download/v1.0.14/ailoop-x86_64-unknown-linux-gnu.tar.gz"
-        sha256 "4b640e74fef129d68bc0ad70a84a82bf83d20dc81a7da83454e8a23934890dc8"
+        sha256 "cdb49d4648b9177bc23b5646521fd837f62988141e0f00042566fee317ea82ce"
       else
         url "https://github.com/goailoop/ailoop/releases/download/v1.0.14/ailoop-x86_64-unknown-linux-musl.tar.gz"
-        sha256 "98dbd079ca4500d6c91f84ff85c478c17d6c8062820e660751240f4b6d3127d3"
+        sha256 "684630327a6cabd34ce410cb4c44d4a8411552aff3e143b5cfa8de900b18d6b3"
       end
     end
   end
